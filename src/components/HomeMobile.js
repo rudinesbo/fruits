@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="home-mobile">
       <div className="section-1-mobile">
-        <Link to="/fruits-mobile" className="fruits-link-mobile">
+        <Link to="/fruits" className="fruits-link-mobile">
           fruits
         </Link>
 
