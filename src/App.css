@@ -120,9 +120,11 @@ body {
 }
 .img-1 {
   height: 791px;
-  width: 100%;
+  max-height: 791px;
+  width: 100vw;
   left: 9.44%;
   top: 671px;
+  overflow-y: hidden;
   background-color: #f9bac5;
 }
 .img-1 img {
@@ -182,6 +184,7 @@ body {
 .img-3 {
   left: calc(20% - 283px);
   left: calc(var(--left-offset) - 283px);
+  overflow-y: hidden;
 }
 .footer-desktop {
   position: relative;
